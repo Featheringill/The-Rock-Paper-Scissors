@@ -56,36 +56,36 @@ function checkForWinner() {
     console.log(choices)
     if (choices.player === choices.computer){
         //tie
-        alert ("its a tie")
+        alert ("Y'all tied. Try again? (hit refresh, lol)")
     }
     else if (choices.player === "rock") {
         if (choices.computer === "paper") {
             //computer wins
-            alert ("computer wins")
+            alert ("Doh! Wipe out! Computer Wins. Try again? (hit refresh, lol)")
         }
         else {
             //player wins
-            alert ("you win")
+            alert ("THE ROCK FOR THE WIN! Play again? (hit refresh, lol)")
         }
     }
     else if (choices.player === "paper") {
         if (choices.computer === "rock") {
             //player wins
-            alert ("you win")
+            alert ("**barely audible snickering**  Well that's embarrassing.  You win.  Play again? (hit refresh, lol)")
         }
         else {
             //computer wins
-            alert ("computer wins")
+            alert ("Wah wah.. computer wins. Try again? (hit refresh, lol) ")
         }
     }
     else if (choices.player === "scissors") {
         if (choices.computer === "rock") {
             //computer wins
-            alert ("computer wins")
+            alert ("He's The Rock, what did you expect?  Try again? (hit refresh, lol)")
         }
         else {
             //player wins
-            alert ("you win")
+            alert ("You win, you did your exact job.  Play again? (hit refresh, lol)")
         }
     }    
 }
