@@ -1,0 +1,40 @@
+.title {
+    display: flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    width: 50%;
+    justify-content: center;
+}
+
+.parent {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.p {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    justify-content: center;
+    padding: 60px;
+}
+
+
+.child {
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 55px;
+    width: 100px;
+    border-radius: 15%;
+    background-color: crimson;
+    color: white;
+    border: black solid 1.5px
+}
